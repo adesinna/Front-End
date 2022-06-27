@@ -1,0 +1,18 @@
+/* We can control the elememts along the cross axis */
+
+html, body {
+  height: 100%; /*To make it show*/
+}
+
+.container {
+  border: 5px solid #ffcc5c;
+  display: flex;
+  height: 100%; /* make sure body and html first, in order to see it work
+  that is responsive in the y axis*/
+  align-items: center;
+
+}
+
+.search {
+  align-self: flex-start; /*This allows the search container to align it self on the y axis*/
+}

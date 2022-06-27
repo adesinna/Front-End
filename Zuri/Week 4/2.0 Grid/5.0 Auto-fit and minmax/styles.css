@@ -1,0 +1,11 @@
+
+.container {
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /*auto-fit allows it to span all the rows
+                                                              while minmax makes sure there is no space
+                                                               in the end of the row */
+  grid-template-rows: repeat(2, 100px);
+  grid-gap: 5px;
+
+}

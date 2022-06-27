@@ -1,0 +1,39 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 5rem;
+}
+
+h1 {
+  margin: 0;
+  font-size: 6rem;
+}
+
+.container {
+  height: 7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+
+}
+
+.box1 {
+  height: 7rem;
+  display: flex;
+  justify-content: center;
+
+}
+
+.box2 {
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 6rem;
+}
+
+#r-btn {
+  margin: auto 1rem;
+}

@@ -1,0 +1,197 @@
+body {
+  background-color: #C4DDFF;
+  padding: 0;
+  margin: 0;
+}
+
+/* Nav */
+.topnav {
+  overflow: hidden;
+  background-color: #161853;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/*section1 */
+.Name {
+  text-align: center;
+  margin-top: 3%;
+}
+
+.sh-img {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  background-color: #C4DDFF;
+}
+
+h1 {
+  margin-bottom: 2%;
+}
+
+h3 {
+  margin-bottom: 2%;
+}
+
+/* write-up */
+.write-up {
+  padding: 0 5%;
+  line-height: 1.5;
+}
+
+footer {
+  text-align: center;
+  margin: 2% auto;
+}
+
+.section2 {
+  margin: 3% 5%;
+}
+
+.section3 {
+  margin: 3% auto;
+}
+
+.buttons {
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: #C4DDFF;
+  border: 2px solid;
+  position: relative;
+  left: 45%;
+}
+
+.buttons:hover {
+  color: grey;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 5%;
+}
+
+/*Forms Contact */
+.fill {
+  text-align: left;
+  padding-left: 3%;
+}
+
+.text-input {
+  color: black;
+  display: inline-block;
+  height: 1.5rem;
+  margin-left: 1rem;
+  width: 15rem;
+  margin-bottom: 2%;
+}
+
+#email-add {
+  margin-left: 3%;
+}
+
+#message {
+  margin: 1% auto;
+  padding-top: 0;
+}
+
+#sh-submit {
+  width: 5rem;
+  height: 3rem;
+  margin-left: 15%;
+}
+
+.sh-form {
+  padding-left: 3%;
+}
+
+
+/* Form Registration */
+
+.gender {
+  width: 5rem;
+  height: 1.5rem;
+  margin-bottom: 2%;
+  margin-left: 2%;
+}
+
+.reg-form {
+  padding-left: 4%;
+}
+
+.btn {
+  margin-left: -60%;
+  height: 20px;
+}
+
+.reg {
+  padding-left: 4%;
+}
+
+#reg-fname #reg-lname {
+  margin-left: 2%;
+}
+
+#state {
+  margin-left: 4%;
+}
+
+#reg-country {
+  margin-left: 2%;
+}
+
+/*Login Page*/
+
+.login-message {
+  text-align: center;
+}
+
+.login {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.login-text {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.login-btn {
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: #C4DDFF;
+  border: 2px solid;
+}

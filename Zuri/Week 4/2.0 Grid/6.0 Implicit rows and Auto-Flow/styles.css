@@ -1,0 +1,20 @@
+
+.container {
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /*auto-fit allows it to span all the rows
+                                                              while minmax makes sure there is no space
+                                                               in the end of the row */
+  grid-gap: 5px;
+  grid-auto-rows: 100px;
+}
+
+/*The rows dont do well if you dont tell them when they shrink*/
+
+/*
+An awesome image grid
+Suppose you have a grid but some pics are wider and taller
+to fill the wide target(class) them and give them a grid-column: span2
+to fill the height target(class) them and give them a grid-row: span2
+to make them fit well after the change grid-auto-flow: dense
+*/

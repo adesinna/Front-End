@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  position: relative;
+
+}
+
+/* First DIV */
+.section1 {
+  background-color: #EAF6F6;
+  text-align: center;
+
+}
+
+.firsthead {
+  margin-top: 0; /* allows the div to go all up */
+  padding-top: 100px;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+  font-size: 5rem;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.cloud1 {
+  position: absolute;
+  right: 200px;
+  top: 50px;
+}
+
+.cloud2 {
+  position: absolute;
+  top: 250px;
+  left: 150px;
+
+}
+
+h2, h3 {
+  font-family: 'Merriweather', serif;
+  color: #66BFBF;
+}
+
+/* section 2 div */
+
+.section2 {
+  text-align: center;
+  margin-top: 50px;
+  line-height: 2;
+}
+
+.shanana {
+  width: 15%
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #EAF6F6;
+  border-width: 5px;
+  width: 5%;
+}
+
+/* section3 div */
+.section3 {
+  text-align: center;
+
+}
+
+.skill1 {
+  width: 50%;
+  margin: 50px auto 50px auto;
+  line-height: 2;
+}
+
+.web-dev {
+  float: left;
+  width: 15%;
+  margin-right: 5px;
+  position: relative;
+  top: 40px;
+}
+
+.contact-me {
+  width: 40%;
+  margin: 50px auto 50px auto;
+  text-align: center;
+
+}

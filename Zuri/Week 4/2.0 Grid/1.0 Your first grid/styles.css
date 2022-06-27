@@ -1,0 +1,6 @@
+.container {
+  display: grid;
+  grid-gap: 3px; /*Thuis give it spacing */
+  grid-template-columns: 100px auto 100px; /* col1 col2 col3 (auto makes it take all the remaining space)*/
+  grid-template-rows: 50px 50px; /* row1 row2 row3*/
+}

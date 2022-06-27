@@ -1,0 +1,31 @@
+body, html {
+  height: 100%;
+}
+
+.container {
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 40px auto 40px;
+  grid-gap: 5px;
+  grid-template-areas: /* This allows you to mock up the site using . will be blank*/
+    'm h h h h h h h h h h h'
+    'm c c c c c c c c c c c'
+    'f f f f f f f f f f f f'
+}
+
+.header {
+  grid-area: h;
+}
+
+.menu {
+  grid-area: m;
+
+}
+
+.content {
+  grid-area: c;
+}
+.footer {
+  grid-area: f;
+}

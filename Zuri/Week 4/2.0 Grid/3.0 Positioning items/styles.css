@@ -1,0 +1,23 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 40px 200px 40px;
+  grid-gap: 5px;
+}
+
+.header {
+  grid-column: 2 / 13 /*Start from the first column line and end at 13 always add 1 to the num of cols to know num of lines*/
+}
+
+.menu {
+  grid-column: 1 / 2;
+  grid-row: 1 / 3;
+
+}
+
+.content {
+  grid-column: 2 / -1;
+}
+.footer {
+  grid-column: 1 / -1 /*start  to the last*/
+}

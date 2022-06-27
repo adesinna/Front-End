@@ -1,0 +1,13 @@
+/*We can make all the elements responsive*/
+
+.container {
+  border: 5px solid #ffcc5c;
+  display: flex;
+}
+
+.container > div {
+  flex: 1; /*This allows all the divs to be responsive*/
+}
+
+/* if you give only one of the div the flex value of 1, it means it will be the
+only one to be responsive*/

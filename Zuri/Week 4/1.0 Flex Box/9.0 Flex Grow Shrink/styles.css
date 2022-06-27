@@ -1,0 +1,16 @@
+.container {
+  border: 5px solid #ffcc5c;
+  display: flex;
+}
+
+.home {
+  flex-grow: 1; /*Rate of growth*/
+  flex-shrink: 1; /*Rate of shrink*/
+  flex-basis: 200px; /*Basis size where it shrinks or grows*/
+}
+
+.logout {
+  flex: 1 1 200px; /*This is the short hand*/
+}
+
+/*Default is 1 0 0*/

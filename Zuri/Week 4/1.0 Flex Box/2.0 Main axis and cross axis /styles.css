@@ -1,0 +1,12 @@
+/*Flex box ours have a direction row by default, that is the direction it flexs it elements,
+by default the direction is in the x axis called main direction, the other
+direction is called cross direction which is the y axis.
+direction row puts all the elments in a row while the direction column puts
+all the elements in a column, then the main axis will be y axis*/
+
+
+.container {
+  border: 5px solid #ffcc5c;
+  display: flex;
+  flex-direction: column; /*This gives it one column*/
+}

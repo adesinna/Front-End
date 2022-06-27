@@ -1,0 +1,10 @@
+.container {
+  border: 5px solid #ffcc5c;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container > div {
+  width: 1000px; /*they be less if the container doesnt contain it, but if flex
+  wrap is set as wrap,it will give it another column  */
+}

@@ -1,0 +1,18 @@
+/*You can control each items in the the flex container*/
+
+.container {
+  border: 5px solid #ffcc5c;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.home {
+  margin-right: auto; /* This will push all the element by the right of Home as
+                      far right as possible */
+}
+
+.logout {
+  margin-left: auto;/* This will push all the element by the right of Home as
+                      far left as possible */
+}

@@ -1,0 +1,9 @@
+/*Justify content controls the position along the main axis, by default is it
+flex-start but has other values you can you*/
+
+.container {
+  border: 5px solid #ffcc5c;
+  display: flex;
+  justify-content: space-between;
+
+}

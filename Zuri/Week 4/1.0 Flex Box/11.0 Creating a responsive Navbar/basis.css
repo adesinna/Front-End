@@ -1,0 +1,31 @@
+html, body {
+  background-color: #ffeead;
+  margin: 10px;
+}
+
+
+.container {
+  padding: 10px;
+  font-size: 2rem;
+  background-color: #88d8b0;
+  color: #ffeead;
+}
+
+ul {
+  list-style-type: none;
+
+}
+
+input[type='text'] {
+  color: #ffeead;
+  background-color: #88d8b0;
+  border: none;
+  font-size: 2rem;
+  border-color: #ffeead;
+  text-align: center;
+
+}
+
+li {
+  margin: auto 3%;
+}

@@ -1,0 +1,25 @@
+;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: [header-start menu-start] 1fr [menu-end content-start]5fr[header-end content-end]; /*1 : 5*/
+  grid-template-rows: 40px auto 40px;
+  grid-gap: 5px;
+}
+
+.header {
+  grid-area: h;
+}
+
+.menu {
+  grid-area: m;
+
+}
+
+.content {
+  grid-area: c;
+}
+.footer {
+  grid-area: f;
+}

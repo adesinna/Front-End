@@ -1,0 +1,21 @@
+.container {
+  border: 5px solid #ffcc5c;
+  display: flex;
+}
+
+.home {
+  flex: 1 1 200px;
+  order: 2;
+}
+
+.search {
+  flex: 1 1 200px;
+  order: 1;
+}
+
+.logout {
+  flex: 1 1 200px;
+  order: 3;
+}
+/*
+order is  the position, negative comes before postive and no other comes first */
